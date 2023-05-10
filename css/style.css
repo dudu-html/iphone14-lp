@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Montserrat&display=swap');
+
+/* 
+
+font-family: 'Advent Pro', sans-serif;
+font-family: 'Montserrat', sans-serif;
+
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: #fff;
+}
+
+body {
+    width: 100%;
+    /* background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%); */
+}
+
+header {
+    width: 100%;
+    padding: 2%;
+    /* background-color: blueviolet; */
+
+    -webkit-box-shadow: 3px 3px 32px 4px #e5e5e5;
+    -moz-box-shadow: 3px 3px 32px 4px #e5e5e5;
+    box-shadow: 3px 3px 32px 4px #e5e5e5;
+    display: flex;
+}
+
+header > a {
+    margin: 0 auto;
+}
+
+#logo-header {
+    width: 2rem;
+    transition: .2s ease-in-out; 
+    opacity: 80%; 
+}
+
+#logo-header:hover {
+    transform: translateY(-4px);
+    opacity: 100%;
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+    /* background-color: palegreen; */    
+}
+
+section {
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+#landing {
+    /* background-color: red; */
+    height: 90vh;
+}
+
+#landing > .container {
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    margin-top: 5%;
+}
+
+/* Left */
+
+.left {
+    width: 40%;
+    /* background-color: rosybrown; */
+    display: flex;
+    align-items: center;
+}
+
+.left > .content {
+    /* background-color: green; */
+}
+
+.left > .content > h3 {
+    opacity: 70%;
+}
+
+.left > .content > h2 { 
+    font-size: 4rem;
+    text-shadow: 2px 2px 10px #cfcfcf;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.left > .content > p {
+    margin: 5% 0;
+    opacity: 60%;
+}
+
+.left > .content > #comprar {
+    text-decoration: none;
+    color: #ffff;
+    background-color: rgb(39, 115, 255);
+    padding: 2% 4%;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: .2s;
+}
+
+.left > .content > #comprar:hover {
+    background-color: rgb(39, 133, 255);
+}
+
+.left > .content > #learn-more {
+    text-decoration: none;
+    color: #000;
+    opacity: 60%;
+    padding: 2% 4%;
+    display: inline-flex;
+    transition: .2s;
+}
+
+.left > .content > #learn-more:hover {
+    opacity: 100%;
+}
+
+.left > .content > #learn-more:hover > span {
+    transform: translateX(3px);
+}
+
+.left > .content > #learn-more > span {
+    transition: .3s;
+}
+
+/* Right */
+
+#landing > .container > .right {
+    width: 60%;
+}
+
+#landing > .container > .right > img {
+    width: 100%;
+}
+
+/* About1 */
+
+#about1 {
+    width: 100%;
+}
+
+#about1 > .container {
+    width: 100%;
+    display: flex;
+}
+
+#about1 > .container > .left {
+    width: 50%;
+    
+}
+
+#about1 > .container > .left > img{
+    width: 100%;
+    -webkit-box-shadow: 3px 3px 32px 4px #e5e5e5;
+    -moz-box-shadow: 3px 3px 32px 4px #e5e5e5;
+    box-shadow: 3px 3px 32px 4px #e5e5e5;
+    border-radius:  0 50% 50% 0;
+}   
+
+#about1 > .container > .right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+}
+
+#about1 > .container > .right> .content {
+    width: 100%;
+    border-bottom: 1px solid #a9a9a9;
+}
+
+#about1 > .container > .right> .content > h2 {
+    width: 100%;
+    font-size: 2.5rem;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-shadow: 2px 2px 10px #c5c5c5;
+}
+
+#about1 > .container > .right> .content > p {
+    margin: 5% 0;
+    opacity: 70%;
+}
